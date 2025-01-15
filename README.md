@@ -1,0 +1,1 @@
+this is [maths dir](https://github.com/vandanafuloria/algorithmic-problems/tree/main/maths)
