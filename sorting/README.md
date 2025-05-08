@@ -73,3 +73,27 @@ The array is conceptually divided into two parts:
 
 - In best case : when list is sorted already O(n)
 - like bubble sort it has also O(n2) time complexity in average and worst case.
+
+# Selection sort
+
+Selection Sort is a simple comparison-based sorting algorithm. It divides the array into two parts:
+
+A sorted subarray (initially empty).
+
+- An unsorted subarray (initially the entire array).
+
+- Principle
+  The core idea of selection sort is:
+
+##### Find the minimum element in the unsorted portion of the array. Swap it with the first element of the unsorted portion (which becomes part of the sorted subarray).
+
+Repeat this process until the entire array is sorted.
+
+### Process
+
+In each pass, the smallest element from the unsorted subarray is selected and moved to the correct position in the sorted subarray.
+
+A total of n - 1 passes are required for an array of size n, since the last element will naturally be in place after sorting all others.
+
+[Selection sort implementatin of code](./selectionSort.js)
+![](https://www.sahinarslan.tech/b8b466d2eb284a87c82fd49a2b033dfe/javascript-selection-sort-visualization.gif)
