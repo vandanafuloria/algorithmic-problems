@@ -5,3 +5,5 @@
 ### 3. LinkedList [Implementation of linkedlist](./linkedlist/README.md)
 
 ### 4. star Pattersn [Pattern ](./patterns-printing/)
+
+### 5. String [lets talk string](./Lets%20Talk%20Strings/README.md)
