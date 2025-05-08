@@ -95,5 +95,6 @@ In each pass, the smallest element from the unsorted subarray is selected and mo
 
 A total of n - 1 passes are required for an array of size n, since the last element will naturally be in place after sorting all others.
 
-[Selection sort implementatin of code](./selectionSort.js)
-![](https://www.sahinarslan.tech/b8b466d2eb284a87c82fd49a2b033dfe/javascript-selection-sort-visualization.gif)
+## [Selection sort implementatin of code](./selectionSort.js)
+
+![selection](https://www.sahinarslan.tech/b8b466d2eb284a87c82fd49a2b033dfe/javascript-selection-sort-visualization.gif)
