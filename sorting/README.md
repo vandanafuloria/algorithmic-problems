@@ -33,7 +33,7 @@ The basic idea is to repeatedly compare adjacent elements in the array and swap 
 
  <hr>
 
-## Insertion Sort
+# Insertion Sort
 
 Insertion Sort is a simple sorting algorithm that works by inserting each element into its correct position in a sorted portion of the array.
 
@@ -98,3 +98,29 @@ A total of n - 1 passes are required for an array of size n, since the last elem
 ## [Selection sort implementatin of code](./selectionSort.js)
 
 ![selection](https://www.sahinarslan.tech/b8b466d2eb284a87c82fd49a2b033dfe/javascript-selection-sort-visualization.gif)
+
+# 🔍 Merge Sort — Divide and Merge Principle
+
+Merge Sort is a classic divide and conquer algorithm. It works by dividing the array into smaller parts until each part contains only a single element (which is trivially sorted), and then merging these parts back together in a sorted manner.
+
+## 🔁 Two Main Functions in Merge Sort
+
+mergeSort – Recursive Division Function
+
+- This function is responsible for recursively dividing the array.
+
+- It doesn't actually split the array into new arrays, but instead uses indices (l and r) to logically divide it.
+
+- It keeps breaking the array down until the base case is reached: a single element (l >= r), which cannot be divided further.
+
+- merge – Merge and Sort Function
+
+- Once the array is broken down into individual elements, this function is used to merge two sorted halves back together in the correct order.
+
+- It creates a temporary array and picks the smaller elements from the left and right parts one by one, ensuring a sorted result.
+
+## A visual view
+
+![sort](https://codepumpkin.com/wp-content/uploads/2017/10/MergeSort_Avg_case.gif)
+
+## ✅ [link of merge sort implementation](./mergeSort.js)
