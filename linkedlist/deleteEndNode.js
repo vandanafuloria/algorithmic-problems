@@ -53,12 +53,12 @@ function findLength(head) {
 //   return head;
 // }
 
-function deleteList(head) {
-  while (head) {
-    head = head.next;
-  }
-  return head;
-}
+// function deleteList(head) {
+//   while (head) {
+//     head = head.next;
+//   }
+//   return head;
+// }
 
 function main() {
   const node1 = new Node(10);
@@ -76,7 +76,7 @@ function main() {
   const head = node1;
   //   printList(head);
   //   const y = deleteAtBegining(head);
-  const emptyList = deleteList(head);
+//   const emptyList = deleteList(head);
   printList(emptyList);
 }
 
